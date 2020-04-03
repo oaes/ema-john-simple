@@ -1,8 +1,10 @@
 import React from 'react';
-
+// import { useAuth } from '../Login/UseAuth';
+// import {UserContext} from '../../App';
 
 const Cart = (props) => {
-    const cart = props.cart;
+  const cart = props.cart;
+   
     // const total = cart.reduce((total,product) => total + product.price * product.quantity);
 let total = 0;
 for(let i = 0; i< cart.length; i++){
@@ -35,6 +37,7 @@ for(let i = 0; i< cart.length; i++){
             {
                 props.children
             }
+           
          
         </div>
     );
