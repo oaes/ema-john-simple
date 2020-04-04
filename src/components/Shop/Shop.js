@@ -30,7 +30,7 @@ if(products.length){
         return product;
     });
     setCart(previousCart)  
-}
+} 
 },[products])
 
     const handleProductAdd = (product) => {
