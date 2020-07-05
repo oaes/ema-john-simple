@@ -29,7 +29,7 @@ const Ship = () => {
       paymentMethod: paymentMethod
     };
 
-    fetch('http://localhost:3200/placeOrder', {
+    fetch('https://still-taiga-80617.herokuapp.com/placeOrder', {
       method: 'POST',
       headers: {
         "Content-type": "application/json"

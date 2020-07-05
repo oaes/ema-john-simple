@@ -17,7 +17,7 @@ const Login = () => {
     }
     return (
         <div>
-            <h1>hello kitty</h1>
+            <h1>Welcome to ema-john shop :)</h1>
        { 
        auth.user ? <button onClick={handleSignOut}>sign out</button> :
        <button onClick={handleSignIn}>sign in</button>
